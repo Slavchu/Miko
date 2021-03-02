@@ -1,0 +1,23 @@
+settings (
+    "Bot" : "Telegram",
+    "token" : "",
+    "author" : ""
+)
+
+include (
+    ...
+)
+
+
+
+Bot {
+    onMessage(message):
+        print("Hew message");
+        if (message == "Hello")
+        {
+            Bot.send(id or username, "World")
+        }
+
+    onVoice(message):
+        ...
+}
