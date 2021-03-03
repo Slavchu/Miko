@@ -11,5 +11,5 @@ class Reader{
             std::string token;
             std::string command_list;
         };
-
+        
 };

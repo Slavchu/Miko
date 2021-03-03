@@ -34,6 +34,7 @@ void Reader::read(std::string filename){
             cout << "Error, I don't know" << s << endl;
             system("pause");
             exit();
+            
         }
     }
 }
